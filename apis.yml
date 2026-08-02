@@ -1,8 +1,23 @@
 aid: urx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urx.png
 name: URX *
-description: 'URX * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'URX was a San Francisco mobile deep-linking and app-search startup that connected
+  mobile users to relevant in-app commerce experiences. Backed by roughly $15M from investors
+  including GV (Google Ventures) and CyberAgent, it was acquired by Pinterest in May 2016 and its
+  product was wound down. The urx.com domain is now parked and listed for sale on a domain
+  marketplace, and no API, developer portal, or public developer artifacts remain. Profiled in the
+  API Evangelist network as a historical GV portfolio company.'
 url: https://raw.githubusercontent.com/api-evangelist/urx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +25,31 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+x-status: defunct
+x-defunct:
+  acquired-by: Pinterest
+  acquired: '2016-05'
+  domain-status: parked-for-sale
+  domain-note: urx.com responds 302 to a domain-marketplace listing (atom.com/name/URX), verified 2026-07-21
+  evidence:
+  - https://www.wsj.com/articles/pinterest-acquires-mobile-ad-startup-urx-1462298027
+  - https://fortune.com/2016/05/03/pinterest-urx-acquisition/
+  - https://globalventuring.com/blog/2016/05/06/urx-links-itself-to-pinterest/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Deep Linking
+- Mobile
+- Advertising
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +58,4 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://urx.com
+  url: https://urx.com
