@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://urx.com', status: 302, note: 'declared website redirects to atom.com — a domain sales/parking service, so the domain has lapsed rather than moved to an acquirer (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urx.png
 name: URX *
 description: 'URX was a San Francisco mobile deep-linking and app-search startup that connected
